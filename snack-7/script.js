@@ -22,5 +22,5 @@ const students = [
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
-const SecondStudent = students.filter((position) => position.id === 2)
+const SecondStudent = students.find((position) => position.id === 2)
 console.log(SecondStudent)
